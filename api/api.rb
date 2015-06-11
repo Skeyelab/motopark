@@ -1,6 +1,11 @@
 class Api < Grape::API
   include PadrinoGrape
 
+  before do
+    header "Access-Control-Allow-Origin", "*"
+  end
+
+
   get :last_spot do
 
     { id: Spot.last.id,
