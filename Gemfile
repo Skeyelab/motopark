@@ -36,6 +36,7 @@ gem 'mysql2'
 gem 'grape'
 gem 'padrino-grape', github: "adamluzsi/padrino-grape"
 
+gem 'rack-cors'
 gem 'pry-padrino'
 
 # Test requirements
