@@ -1,0 +1,9 @@
+---
+:orm: datamapper
+:test: none
+:mock: none
+:script: none
+:renderer: slim
+:stylesheet: none
+:namespace: Motopark
+:migration_format: number
