@@ -146,6 +146,7 @@ GEM
     rack (1.5.3)
     rack-accept (0.4.5)
       rack (>= 0.4)
+    rack-cors (0.4.0)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
     rack-protection (1.5.3)
@@ -205,6 +206,7 @@ DEPENDENCIES
   padrino (= 0.12.5)
   padrino-grape!
   pry-padrino
+  rack-cors
   rake
   slim
   unicorn
