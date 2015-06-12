@@ -3,7 +3,7 @@ class Api < Grape::API
 
   before do
     header "Access-Control-Allow-Origin", "*"
-    header "Access-Control-Allow-Headers", "*"
+    header "Access-Control-Allow-Headers", "Content-Type"
   end
 
 
